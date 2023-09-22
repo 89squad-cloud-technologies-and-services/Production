@@ -55,4 +55,4 @@ IP устройств были найдены с помощью команды `
 
 Для того, чтоб подключиться к серверу по SSH, нужно знать имя пользователя и IP (IP был найден в начала). Чтоб узнать имя пользователя, достаточно ввести команду `cat /etc/passwd` (см. рисунок 7-8)
 
-<img src="images/img7.png" alt="img7.png" width="400"><img src="images/img8.png" alt="img8.png" width="500">
+<img src="images/img7.png" alt="img7.png" width="400"><img src="images/img8.png" alt="img8.png" width="450">
