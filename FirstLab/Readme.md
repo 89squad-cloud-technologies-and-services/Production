@@ -67,7 +67,7 @@ IP устройств были найдены с помощью команды `
 
 Так как мы изменили порт на 2222, нужно прописывать в команде `-p 2222` (-p чувстивителен к регистру и в команду ssh нужно прописывать именно маленькую -p)
 
-<img src="images/img9.png" alt="img9.png" width="600">
+<img src="images/img9.png" alt="img9.png" width="700">
 
 После подключения к серверу на PC B, нам нужно передать файл на PC C - пользователю *dmitrij_sq*. Делается это с помощью команды (см. рисунок 10):
 
@@ -75,9 +75,9 @@ IP устройств были найдены с помощью команды `
 
 В данном случае path1 - путь к файлу у пользователя *mikhailshapiro*, username - *dmitrij_sq*, ip PC C и path2 - путь к папке, в которую будет скопирован файл
 
-<img src="images/img10.png" alt="img10.png" width="600">
+<img src="images/img10.png" alt="img10.png" width="700">
 
 Проверить, что всё скопировалось корректно можно, прописав команду `cat filename`, она выведет всё содержимое файла в консоль (см. рисунок 11-12).
 
 <img src="images/img11.png" alt="img11.png" width="600">
-<img src="images/img12.png" alt="img12.png" width="600">
+<img src="images/img12.png" alt="img12.png" width="400">
