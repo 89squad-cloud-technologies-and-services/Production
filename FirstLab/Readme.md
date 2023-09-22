@@ -42,10 +42,10 @@ IP устройств были найдены с помощью команды `
 
 Устанавливаем openssh-server командой `sudo apt-get install openssh-server` (Если ещё не установлен). Так как мы изменили порт на 2222, нам нужно его поменять и на сервере. Так как сервер порт задаётся в конфиге, меняем конфиг с помощью команды `sudo nano /etc/ssh/sshd_config`. Меняем строку `#Port 22` на `Port 2222` (Обязательно убрать решётку) и сохраняем конфиг - Нажимаем Ctr + X Потом Y Потом Enter (см. рисунок 4).
 
-<img src="images/img3.png" alt="img6.png" width="600">
+<img src="images/img6.png" alt="img6.png" width="600">
 
 Запускаем сервер командой `sudo service ssh start` или перезагружаем его с помощью `sudo service ssh restart`. После изменения порта обязательно нужно перезапустить сервер. Проверяем, что сервер стал активным командой `service ssh status` (см. рисунок 5-6). На некоторых устройствах выводятся сокращённые сообщения о том, что сервер активен
 
-<img src="images/img3.png" alt="img4.png" width="400"><img src="images/img3.png" alt="img5.png" width="400">
+<img src="images/img4.png" alt="img4.png" width="400"><img src="images/img5.png" alt="img5.png" width="400">
 
 
