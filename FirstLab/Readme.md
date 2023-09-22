@@ -50,3 +50,9 @@ IP устройств были найдены с помощью команды `
 
 <img src="images/img4.png" alt="img4.png" width="400">
 <img src="images/img5.png" alt="img5.png" width="400">
+
+## 4. Подключение к серверу по SSH и копирование файлов
+
+Для того, чтоб подключиться к серверу по SSH, нужно знать имя пользователя и IP (IP был найден в начала). Чтоб узнать имя пользователя, достаточно ввести команду `cat /etc/passwd` (см. рисунок 7-8)
+
+<img src="images/img7.png" alt="img7.png" width="400"><img src="images/img8.png" alt="img8.png" width="400">
