@@ -12,28 +12,40 @@ IP устройств были найдены с помощью команды `
 
 |Устройство|IP|
 |----------|--|
-|PC A|ip1|
-|PC B|ip2|
-|PC C|ip3|
+|PC A|172.28.114.254|
+|PC B|172.28.113.153|
+|PC C|172.28.115.25|
 
 С помощью команды `ping IP` проверяем видят ли ПК IP из списка (см. рисунок 2).
 
-<img src="images/img2.png" alt="img2.png">
+<img src="images/img2.png" alt="img2.png" width="400">
 
-Все три устройства видят друг друга, значит подключение к локальной сети было успешно выыполнено.
+Все три устройства видят друг друга, значит подключение к локальной сети было успешно выполнено.
 
 ## 2. Настройка WSL для принятия запросов на подключение к серверу.
 
 В WSL 2 имеется виртуализированный адаптер Ethernet с собственным уникальным IP-адресом. Его можно найти с помощью команды `ifconfig` в консоле WSL. Так как запросы на подключение приходят по IP адрессу Windows, нам нужно направить их в WSL. Делается это в PowerShell (открытого от имени администратора) с помощью команды:
-`netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=2222 connectaddress=IP(X.X.X.X) connectport=2222` 
+
+`netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=2222 connectaddress=IP(X.X.X.X) connectport=2222`
+
 Таккая команда добавляет прокси-сервер портов, ожидающий передачи данных на порту узла 2222 и перенаправляющий все подключения на порт 2222 виртуальной машины WSL 2 с IP-адресом X.X.X.X Будем использовать порт 2222, так как некоторые публичные сети могут блокировать порт 22 (Стандартный порт).
 
 С помощью команды `netsh interface portproxy show v4tov4` проверяем, что прокси-сервер был успешно добавлен (см. рисунок 3)
 
-<img src="images/img3.png" alt="img3.png">
+<img src="images/img3.png" alt="img3.png" width="600">
 
-В завершении настраиваем правила брандмауэра с помощью команды `netsh advfirewall firewall add rule name=”Open Port 2222 for WSL2” dir=in action=allow protocol=TCP localport=2222`
+В завершении настраиваем правила брандмауэра с помощью команды:
+
+`netsh advfirewall firewall add rule name=”Open Port 2222 for WSL2” dir=in action=allow protocol=TCP localport=2222`
 
 ## 3. Загрузка и настройка сервера Openssh-server
 
-Устанавливаем openssh-server командой `sudo apt-get install openssh-server` (Если ещё не установлен). Запускаем сервер командой `sudo service ssh start` или `sudo service ssh restart`. Проверяем, что сервер стал активным командой `service ssh status`
+Устанавливаем openssh-server командой `sudo apt-get install openssh-server` (Если ещё не установлен). Так как мы изменили порт на 2222, нам нужно его поменять и на сервере. Так как сервер порт задаётся в конфиге, меняем конфиг с помощью команды `sudo nano /etc/ssh/sshd_config`. Меняем строку `#Port 22` на `Port 2222` (Обязательно убрать решётку) и сохраняем конфиг - Нажимаем Ctr + X Потом Y Потом Enter (см. рисунок 4).
+
+<img src="images/img3.png" alt="img6.png" width="600">
+
+Запускаем сервер командой `sudo service ssh start` или перезагружаем его с помощью `sudo service ssh restart`. После изменения порта обязательно нужно перезапустить сервер. Проверяем, что сервер стал активным командой `service ssh status` (см. рисунок 5-6). На некоторых устройствах выводятся сокращённые сообщения о том, что сервер активен
+
+<img src="images/img3.png" alt="img4.png" width="400"><img src="images/img3.png" alt="img5.png" width="400">
+
+
