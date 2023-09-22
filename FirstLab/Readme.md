@@ -58,7 +58,9 @@ IP устройств были найдены с помощью команды `
 <img src="images/img7.png" alt="img7.png" width="400"><img src="images/img8.png" alt="img8.png" width="450">
 
 Пользователь на PC A - *amir*
+
 Пользователь на PC B - *mikhailshapiro*
+
 Пользователь на PC C - *dmitrij_sq*
 
 Теперь все пользователи известны и пользователь *amir* может подключиться к пользователю *mikhailshapiro* на сервере PC B. Выполняется это спомощтю команды (см. рисунок 9):
