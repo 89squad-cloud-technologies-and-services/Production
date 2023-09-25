@@ -83,3 +83,6 @@ IP устройств были найдены с помощью команды `
 
 <img src="images/img11.png" alt="img11.png" width="600">
 <img src="images/img12.png" alt="img12.png" width="400">
+
+<hr>
+# Задание со звёздочкой
