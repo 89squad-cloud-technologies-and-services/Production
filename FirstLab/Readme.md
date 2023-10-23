@@ -1,4 +1,4 @@
-![image](https://github.com/89squad-cloud-technologies-and-services/Production/assets/112972631/f561d143-67b2-44f5-9af5-a4729e46be57)# Лабораторная работа №1
+# Лабораторная работа №1
 
 ## 1. Подключаем все 3 уcтройства к общей сети
 
