@@ -4,7 +4,7 @@
 
 Рассмотрим написанный DockerfileBad.
 
-<img src="images/dockerfilebad.jpeg" alt="dockerfilebad.jpeg" width="400">
+<img src="images/dockerfilebad.jpg" alt="dockerfilebad.jpg" width="400">
 
 Очевидны стандартные ошибки в написании докерфайла:
 1. Использование несколько раз команды RUN увеличивает время сборки образа, его размер. Кроме того, увеличивает сложность отладки нашего образа.
