@@ -15,7 +15,7 @@
 
 Рассмотрим написанный DockerfileGood.
 
-<img src="images/img1.png" alt="img1.png" width="400">
+<img src="images/dockergood.jpg" alt="dockergood.jpg" width="400">
 
 Желательные "Good practice" в докерфайле:
 1. Использование конкретной и стабильной версии NGINX.
@@ -25,9 +25,10 @@
 5. Использование .Dockerignore (в нашем случае для игнорирования JSON файлов, которые не влияют на клиентскую часть)
 
 ## 3. Сравним размеры полученных докер образов после сборки.
-
-<img src="images/img1.png" alt="img1.png" width="400">
-<img src="images/img1.png" alt="img1.png" width="400">
+"Плохой Докер"
+<img src="images/dockerimagebad.jpg" alt="dockerimagebad.jpg" width="400">
+"Хороший Докер"
+<img src="images/dockerimagegood.jpg" alt="dockerimagegood.jpg" width="400">
 
 Как мы видим, правильное написание докерфайла может сохранить около 20 процентов памяти и больше. Кроме того, сохранить наше время.
 
@@ -38,13 +39,13 @@
 4. Установим корневой каталог для обслуживания наших веб-ресурсов.
 5. Добавляем обработку CSS и JS файлов, кеширование ресурсов.
 
-<img src="images/img1.png" alt="img1.png" width="400">
+<img src="images/nginx.jpg" alt="nginx.jpg" width="400">
 
 ## 5. Билдим и запускаем контейнер с веб-сервером.
 
-<img src="images/img1.png" alt="img1.png" width="400">
+<img src="images/dockerbuild.jpg" alt="dockerbuild.jpg" width="400">
 
 В браузере делаем запрос на localhost:443 и радуемся нашему рабочему сайту!!! Все статические файлы работают, кнопки прожимаются, можно добавить книги в корзину!
 
-<img src="images/img1.png" alt="img1.png" width="400">
+<img src="images/production.jpg" alt="production.jpg" width="400">
 
