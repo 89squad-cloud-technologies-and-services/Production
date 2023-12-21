@@ -25,3 +25,22 @@
 |AmazonPersonalize|Это сервис машинного обучения (ML) с минимумом программирования, который может предоставлять отличительные предложения для любого приложения, работающего в инфраструктуре Amazon Web Services (AWS), с помощью вызова API. Цель Amazon Personalize – повысить вовлеченность пользователей, предлагая индивидуальные предложения.|
 |AmazonRekognition|Это Amazon Web Service (AWS), предоставляющий сервисы анализа изображений и видео. Вы можете предоставить изображение или видео, и сервис обнаружит объекты, людей и сцены. Обнаруженные лица также могут быть сопоставлены с набором известных лиц. Это позволяет реализовать такие сценарии использования, как верификация пользователей, подсчет людей или общественная безопасность.|
 |AmazonEC2|Это сервис, который предоставляет вычислительные мощности путем предоставления виртуальных/физических машин с заранее созданными образами операционных систем (например, Ubuntu, Debian, Windows).|
+
+# Сопоставление сервисов AWS и Российской компании Yandex Cloud
+
+APNFee - Yandex Cloud Partner Program
+AmazonAppStream - None
+AmazonAthena - Yandex Managed Service for MySQL
+AmazonCloudDirectory - None
+AmazonDocDB - Yandex Managed Service for MongoDB
+AmazonEI - None
+AWSIoT - Yandex IoT Core
+IoTDeviceManagement - Yandex IoT Core
+AWSCodePipeline - None
+AWSXRay - Yandex.Metrica
+AWS CodeBuild - None
+AmazonML - Yandex DataSphere
+AmazonPolly - Yandex SpeechKit
+AmazonPersonalize - None
+AmazonRekognition - Yandex Vision
+AmazonEC2 -	Yandex Instance Groups
