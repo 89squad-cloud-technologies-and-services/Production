@@ -65,7 +65,7 @@ Storage - None
 |Processing Level Optimization|	Azure Databricks || %Data Engineering% | Microsoft.Databricks |Yandex DataSphere|
 |Webhook Notify|	Azure Monitor	| Notifications	| Webhook	| microsoft.insights |Yandex Monitoring|
 |Email Notify|	Azure Monitor	| Notifications	| Email	| microsoft.insights |Yandex Monitoring|
-|High Peromance Computer|	Virtual Machines ||| Microsoft.Batch
+|High Peromance Computer|	Virtual Machines ||| Microsoft.Batch |Yandex Compute Cloud|
 |Development and Testing|	Virtual Machines | A Series Basic% || %Compute |Yandex Compute Cloud|
 |Development and Testing|	Virtual Machines | A% || %Compute |Yandex Compute Cloud| 
 |Economical VM|	Virtual Machines | B%	|| %Compute |Yandex Compute Cloud| 
