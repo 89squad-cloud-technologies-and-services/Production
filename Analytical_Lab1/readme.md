@@ -26,7 +26,7 @@
 |AmazonRekognition|Это Amazon Web Service (AWS), предоставляющий сервисы анализа изображений и видео. Вы можете предоставить изображение или видео, и сервис обнаружит объекты, людей и сцены. Обнаруженные лица также могут быть сопоставлены с набором известных лиц. Это позволяет реализовать такие сценарии использования, как верификация пользователей, подсчет людей или общественная безопасность.|
 |AmazonEC2|Это сервис, который предоставляет вычислительные мощности путем предоставления виртуальных/физических машин с заранее созданными образами операционных систем (например, Ubuntu, Debian, Windows).|
 
-# Сопоставление сервисов AWS и Российской компании Yandex Cloud
+## Сопоставление сервисов AWS и Российской компании Yandex Cloud
 
 APNFee - Yandex Cloud Partner Program
 
@@ -60,49 +60,51 @@ AmazonRekognition - Yandex Vision
 
 AmazonEC2 -	Yandex Instance Groups
 
+## Таблица
+
 |Service Usage Type	| Product Code	| Usage Type	| lineItem/Operation |	lineItem/LineItemDescription |	Russian Service |
 |------------------|---------------|-------------|---------------------|-------------------------------|------------------|
-||	APNFee		|||	Tax%	||
-||	APNFee		|||||	
-||	AmazonAppStream |||	Tax%	
-||	AmazonAppStream	| %stream%	||||
-||	AmazonAppStream	| %StoppedInstance%	||||
-||	AmazonAppStream	| %Win-User	||||
-||	AmazonAthena |	%DataScanned%	||||
-||	AmazonAthena	| %Requests-Tier1	||||
-||	AmazonCloudDirectory |	%Requests-Tier1 |	CreateDirectory	|||
-||	AmazonCloudDirectory	%Requests-Tier2	||||
-||	AmazonDocDB ||| Tax% ||	
-||	AmazonDocDB	| %InstanceUsage:%	||||
-||	AmazonDocDB	| %StorageIOUsage	||||
-||	AmazonDocDB	| %StorageUsage	||||
-||	AmazonDocDB |	%BackupUsage	||||
-||	AmazonEI ||| Tax%	||
-||	AmazonEI |	%eia1% ||||
-||	AmazonEI |	%eia2% ||||
-||	AWSIoT |	%Messages	||||
-||	AWSIoT |	%RegistryAndShadowOperations ||||
-||	AWSIoT |	%ConnectionMinutes ||||
-||	AWSIoT |	%MQTT	||||
-||	IoTDeviceManagement	%IndexedData	||||
-||	AWSCodePipeline		|||	Tax%	||
-||	AWSCodePipeline	| %trialPipeline% ||||
-||	AWSCodePipeline |	%activePipeline% ||||
-||	AWSXRay	|||	Tax% ||	
-||	AWSXRay	| %XRay% ||||
-||	CodeBuild	|||||
-||	AmazonML | %AMLBoxUsage	| DataStats |||		
-||	AmazonML | %BatchPredictionChunk ||||
-||	AmazonML | %AMLBoxUsage | TrainModel |||		
-||	AmazonML | %AMLBoxUsage	| EvaluateModel |||		
-||	AmazonPolly	|||||
-||	AmazonPersonalize	||| Tax% ||	
-||	AmazonPersonalize	| %TPS-hours ||||
-||	AmazonPersonalize	| %TrainingHour	||||
-||	AmazonPersonalize	| %DataIngestion ||||
-||	AmazonRekognition	|||||
-||	AmazonEC2	| %EBS:VolumeIOUsage%	||||
-||	AmazonEC2	| %EBS:VolumeUsage%	||||
-||	AmazonEC2	| %EBS:SnapshotUsage ||||
-||	AmazonEC2	| %EBS:SnapshotUsageUnderBilling ||||
-||	AmazonEC2	| %EBS:VolumeP-IOPS.piops% ||||
+|Tax|	APNFee		|||	Tax%	||
+|Cloud Deployment|	APNFee		|||||	
+|Tax|	AmazonAppStream |||	Tax%	
+|Streaming Desktop Application|	AmazonAppStream	| %stream%	||||
+|Stop|	AmazonAppStream	| %StoppedInstance%	||||
+|Windows Cooperation|	AmazonAppStream	| %Win-User	||||
+|Query Scanninig|	AmazonAthena |	%DataScanned%	||||
+|Send Request|	AmazonAthena	| %Requests-Tier1	||||
+|Query Boundaries|	AmazonCloudDirectory |	%Requests-Tier1 |	CreateDirectory	|||
+|DB Request|	AmazonCloudDirectory	%Requests-Tier2	||||
+|Tax|	AmazonDocDB ||| Tax% ||	
+|Instance Use|	AmazonDocDB	| %InstanceUsage:%	||||
+|Database Analisis|	AmazonDocDB	| %StorageIOUsage	||||
+|Storage Usage|	AmazonDocDB	| %StorageUsage	||||
+|DB Back up|	AmazonDocDB |	%BackupUsage	||||
+|Tax|	AmazonEI ||| Tax%	||
+|Inference Accelerator|	AmazonEI |	%eia1% ||||
+|Inference Accelerator|	AmazonEI |	%eia2% ||||
+|Send SMS|	AWSIoT |	%Messages	||||
+|Device Status Information|	AWSIoT |	%RegistryAndShadowOperations ||||
+|Connection Time|	AWSIoT |	%ConnectionMinutes ||||
+|Connection Protocol|	AWSIoT |	%MQTT	||||
+|Data Index|	IoTDeviceManagement	%IndexedData	||||
+|Tax|	AWSCodePipeline		|||	Tax%	||
+|Trial Planning|	AWSCodePipeline	| %trialPipeline% ||||
+|Active Planning|	AWSCodePipeline |	%activePipeline% ||||
+|Tax|	AWSXRay	|||	Tax% ||	
+|Data collection|	AWSXRay	| %XRay% ||||
+|Code compitalion|	CodeBuild	|||||
+|Get stats|	AmazonML | %AMLBoxUsage	| DataStats |||		
+|Get predictions|	AmazonML | %BatchPredictionChunk ||||
+|Build algorithm|	AmazonML | %AMLBoxUsage | TrainModel |||		
+|Get Evalute|	AmazonML | %AMLBoxUsage	| EvaluateModel |||		
+|Text to Speech|	AmazonPolly	|||||
+|Tax|	AmazonPersonalize	||| Tax% ||	
+|Set Throughput|	AmazonPersonalize	| %TPS-hours ||||
+|Model Training Time|	AmazonPersonalize	| %TrainingHour	||||
+|Get Data|	AmazonPersonalize	| %DataIngestion ||||
+|Data Indexing|	AmazonRekognition	|||||
+|Get Response Time|	AmazonEC2	| %EBS:VolumeIOUsage%	||||
+|Data Scaling|	AmazonEC2	| %EBS:VolumeUsage%	||||
+|Taking Snapshot|	AmazonEC2	| %EBS:SnapshotUsage ||||
+|Organize Your AWS Bill|	AmazonEC2	| %EBS:SnapshotUsageUnderBilling ||||
+|Get Throughput|	AmazonEC2	| %EBS:VolumeP-IOPS.piops% ||||
