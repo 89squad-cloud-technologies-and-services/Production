@@ -53,53 +53,53 @@ Storage - None
 
 |Service Usage Type	| Meter Category	| Meter Sub-Category	| Meter Name |	Consumed Service |	Russian Service |
 |------------------|---------------|-------------|---------------------|-------------------------------|------------------|
-||  Analysis Services	| Tabular	| Standard S%	| Microsoft.AnalysisServices||
-||	Analysis Services |	Tabular |	Basic B% |	Microsoft.AnalysisServices ||
-||	Analysis Services	| Tabular	| Developer (Hours) |	Microsoft.AnalysisServices ||
-||	Azure Analysis Services	| Basic |	B%	| Microsoft.AnalysisServices ||
-||	Azure Analysis Services	| Developer	| Developer |	Microsoft.AnalysisServices ||
-||	Azure Analysis Services	| Standard	| S%	| Microsoft.AnalysisServices ||
-||	Azure Database for PostgreSQL	|||	Microsoft.DBforMyQL ||
-||	Azure Database for PostgreSQL	||| Microsoft.DBforPostgreSQL ||
-||	Azure Databricks || %Data Analytics% | Microsoft.Databricks ||
-||	Azure Databricks || %Data Engineering% | Microsoft.Databricks ||
-||	Azure Monitor	| Notifications	| Webhook	| microsoft.insights ||
-||	Azure Monitor	| Notifications	| Email	| microsoft.insights ||
-||	Virtual Machines ||| Microsoft.Batch
-||	Virtual Machines | A Series Basic% || %Compute ||
-||	Virtual Machines | A% || %Compute || 
-||	Virtual Machines | B%	|| %Compute || 
-||	Virtual Machines | D%	| D1/% | %Compute || 
-||	Virtual Machines | D%	| D1 % | %Compute || 
-||	Virtual Machines | D%	| D1% | %Compute || 
-||	Virtual Machines | D%	| D% | %Compute || 
-||	Virtual Machines | E% || %Compute ||
-||	Virtual Machines | F%	|| %Compute ||
-||	Virtual Machines | Standard_F4 VM (Windows)	| Compute Hours	%Compute ||
-||	Virtual Machines | G%	|| %Compute ||
-||	Virtual Machines | H%	|| %Compute ||
-||	Virtual Machines | L%	|| %Compute ||
-||	Virtual Machines | M%	|| %Compute ||
-||	Virtual Machines | N%	|| %Compute ||
-||	Virtual Machines | S%	|| %Compute ||
-||	Virtual Machines ||| Microsoft.MachineLearningServices ||
-||	Virtual Network	|||||
-||	Load Balancer	||| Microsoft.Batch ||
-||	Load Balancer	||| Microsoft.MachineLearningServices ||
-||	Load Balancer	||| Microsoft.Network ||
-||	SignalR	||| Microsoft.SignalRService ||
-||	Event Grid || Operations |||
-||	Windows Azure - All Services | All | Data Transfer Out% | Microsoft.Storage ||
-||	Media Services ||| microsoft.media ||
-||	IoT Hub ||| Microsoft.Devices ||
-||	SQL Data Warehouse | %Storage || Microsoft.Sql ||
-||	Storage ||| Microsoft.Sql  ||
-||	Storage	||| microsoft._ackup ||
-||	Storage	||| Microsoft.RecoveryServices ||
-||	Storage	||| %_torage% ||
-||	Storage	||| Microsoft.Compute ||
-||	Storage	||| Microsoft.MachineLearningServices ||
-||	Storage	||| Microsoft.Batch ||
+|Standart Service Level|  Analysis Services	| Tabular	| Standard S%	| Microsoft.AnalysisServices||
+|Basic Service Level|	Analysis Services |	Tabular |	Basic B% |	Microsoft.AnalysisServices ||
+|Developer Service Level|	Analysis Services	| Tabular	| Developer (Hours) |	Microsoft.AnalysisServices ||
+|Solutions with Small Models|	Azure Analysis Services	| Basic |	B%	| Microsoft.AnalysisServices ||
+|Development and Testing|	Azure Analysis Services	| Developer	| Developer |	Microsoft.AnalysisServices ||
+|Mission-Critical Applications|	Azure Analysis Services	| Standard	| S%	| Microsoft.AnalysisServices ||
+|MySQL Using|	Azure Database for PostgreSQL	|||	Microsoft.DBforMyQL ||
+|PostreSQL Using|	Azure Database for PostgreSQL	||| Microsoft.DBforPostgreSQL ||
+|Workflow Analitics|	Azure Databricks || %Data Analytics% | Microsoft.Databricks ||
+|Processing Level Optimization|	Azure Databricks || %Data Engineering% | Microsoft.Databricks ||
+|Webhook Notify|	Azure Monitor	| Notifications	| Webhook	| microsoft.insights ||
+|Email Notify|	Azure Monitor	| Notifications	| Email	| microsoft.insights ||
+|High Peromance Computer|	Virtual Machines ||| Microsoft.Batch
+|Development and Testing|	Virtual Machines | A Series Basic% || %Compute ||
+|Development and Testing|	Virtual Machines | A% || %Compute || 
+|Economical VM|	Virtual Machines | B%	|| %Compute || 
+|General Purpose Compute|	Virtual Machines | D%	| D1/% | %Compute || 
+|General Purpose Compute|	Virtual Machines | D%	| D1 % | %Compute || 
+|General Purpose Compute|	Virtual Machines | D%	| D1% | %Compute || 
+|General Purpose Compute|	Virtual Machines | D%	| D% | %Compute || 
+|Hyper-Threaded Applications|	Virtual Machines | E% || %Compute ||
+|Compute optimized VM|	Virtual Machines | F%	|| %Compute ||
+|Compute optimized VM|	Virtual Machines | Standard_F4 VM (Windows)	| Compute Hours	%Compute ||
+|Momory and Storage optimized VM|	Virtual Machines | G%	|| %Compute ||
+|High Performance Computing VM|	Virtual Machines | H%	|| %Compute ||
+|Storage optimized VM|	Virtual Machines | L%	|| %Compute ||
+|Memory Optimized VM|	Virtual Machines | M%	|| %Compute ||
+|GPU Enabled VM|	Virtual Machines | N%	|| %Compute ||
+|Series Selection|	Virtual Machines | S%	|| %Compute ||
+|Cloud Data|	Virtual Machines ||| Microsoft.MachineLearningServices ||
+|Resource Interaction|	Virtual Network	|||||
+|Distributing Compute|	Load Balancer	||| Microsoft.Batch ||
+|Distributing Compute|	Load Balancer	||| Microsoft.MachineLearningServices ||
+|Distributing Wen Compute|	Load Balancer	||| Microsoft.Network ||
+|Adding Web Functionality to App|	SignalR	||| Microsoft.SignalRService ||
+|Operations for Events|	Event Grid || Operations |||
+|Data Transfer Out|	Windows Azure - All Services | All | Data Transfer Out% | Microsoft.Storage ||
+|Broadcast Quality for Devices|	Media Services ||| microsoft.media ||
+|Communication between Devices|	IoT Hub ||| Microsoft.Devices ||
+|Big Data Analitics|	SQL Data Warehouse | %Storage || Microsoft.Sql ||
+|SQL Analitics|	Storage ||| Microsoft.Sql  ||
+|Data Backup|	Storage	||| microsoft._ackup ||
+|Data Recovery from Storage|	Storage	||| Microsoft.RecoveryServices ||
+|File Operation|	Storage	||| %_torage% ||
+|Storage|	Storage	||| Microsoft.Compute ||
+|Data Storage|	Storage	||| Microsoft.MachineLearningServices ||
+|High-Perfomance Computing|	Storage	||| Microsoft.Batch ||
 
 # Вывод
 
