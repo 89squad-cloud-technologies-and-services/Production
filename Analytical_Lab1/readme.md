@@ -59,3 +59,50 @@ AmazonPersonalize - None
 AmazonRekognition - Yandex Vision
 
 AmazonEC2 -	Yandex Instance Groups
+
+|Service Usage Type	| Product Code	| Usage Type	| [lineItem/Operation] |	lineItem/LineItemDescription |	Russian Service |
+----------------------------------------------------------------------------------------------------------------------------
+||	APNFee		|||	Tax%	||
+||	APNFee		|||||	
+||	AmazonAppStream |||	Tax%	
+||	AmazonAppStream	| %stream%	||||
+||	AmazonAppStream	| %StoppedInstance%	||||
+||	AmazonAppStream	| %Win-User	||||
+||	AmazonAthena |	%DataScanned%	||||
+||	AmazonAthena	| %Requests-Tier1	||||
+||	AmazonCloudDirectory |	%Requests-Tier1 |	CreateDirectory	|||
+||	AmazonCloudDirectory	%Requests-Tier2	||||
+||	AmazonDocDB ||| Tax% ||	
+||	AmazonDocDB	| %InstanceUsage:%	||||
+||	AmazonDocDB	| %StorageIOUsage	||||
+||	AmazonDocDB	| %StorageUsage	||||
+||	AmazonDocDB |	%BackupUsage	||||
+||	AmazonEI ||| Tax%	||
+||	AmazonEI |	%eia1% ||||
+||	AmazonEI |	%eia2% ||||
+||	AWSIoT |	%Messages	||||
+||	AWSIoT |	%RegistryAndShadowOperations ||||
+||	AWSIoT |	%ConnectionMinutes ||||
+||	AWSIoT |	%MQTT	||||
+||	IoTDeviceManagement	%IndexedData	||||
+||	AWSCodePipeline		|||	Tax%	||
+||	AWSCodePipeline	| %trialPipeline% ||||
+||	AWSCodePipeline |	%activePipeline% ||||
+||	AWSXRay	|||	Tax% ||	
+||	AWSXRay	| %XRay% ||||
+||	CodeBuild	|||||
+||	AmazonML | %AMLBoxUsage	| DataStats |||		
+||	AmazonML | %BatchPredictionChunk ||||
+||	AmazonML | %AMLBoxUsage | TrainModel |||		
+||	AmazonML | %AMLBoxUsage	| EvaluateModel |||		
+||	AmazonPolly	|||||
+||	AmazonPersonalize	||| Tax% ||	
+||	AmazonPersonalize	| %TPS-hours ||||
+||	AmazonPersonalize	| %TrainingHour	||||
+||	AmazonPersonalize	| %DataIngestion ||||
+||	AmazonRekognition	|||||
+||	AmazonEC2	| %EBS:VolumeIOUsage%	||||
+||	AmazonEC2	| %EBS:VolumeUsage%	||||
+||	AmazonEC2	| %EBS:SnapshotUsage ||||
+||	AmazonEC2	| %EBS:SnapshotUsageUnderBilling ||||
+||	AmazonEC2	| %EBS:VolumeP-IOPS.piops% ||||
