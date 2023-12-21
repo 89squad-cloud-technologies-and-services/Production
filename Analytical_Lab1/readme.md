@@ -66,14 +66,14 @@ AmazonEC2 -	Yandex Instance Groups
 |------------------|---------------|-------------|---------------------|-------------------------------|------------------|
 |Tax|	APNFee		|||	Tax%	|Yandex Cloud Partner Program|
 |Cloud Deployment|	APNFee		||||Yandex Cloud Partner Program|	
-|Tax|	AmazonAppStream |||	Tax%	
+|Tax|	AmazonAppStream |||	Tax%	|None|
 |Streaming Desktop Application|	AmazonAppStream	| %stream%	|||None|
 |Stop|	AmazonAppStream	| %StoppedInstance%	|||None|
 |Windows Cooperation|	AmazonAppStream	| %Win-User	|||None|
 |Query Scanninig|	AmazonAthena |	%DataScanned%	|||Yandex Managed Service for MySQL|
 |Send Request|	AmazonAthena	| %Requests-Tier1	|||Yandex Managed Service for MySQL|
 |Query Boundaries|	AmazonCloudDirectory |	%Requests-Tier1 |	CreateDirectory	||None|
-|DB Request|	AmazonCloudDirectory	%Requests-Tier2	|||None|
+|DB Request|	AmazonCloudDirectory |	%Requests-Tier2	|||None|
 |Tax|	AmazonDocDB ||| Tax% |Yandex Managed Service for MongoDB|	
 |Instance Use|	AmazonDocDB	| %InstanceUsage:%	|||Yandex Managed Service for MongoDB|
 |Database Analisis|	AmazonDocDB	| %StorageIOUsage	|||Yandex Managed Service for MongoDB|
