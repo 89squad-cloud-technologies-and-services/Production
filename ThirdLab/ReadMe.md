@@ -8,14 +8,16 @@
 
 ## 2. Напишем YAML файл для автоматизации сборки докер образа и сохранения его результата на DockerHub.
 
-<img src="images/ymlfile.jpg" alt="ymlfile.jpg" width="400">
+<img src="images/ymlfile.png" alt="ymlfile.png" width="400">
 
 ## 3. Запушим. Подождем проверку тестов.
 
-<img src="images/actions.jpg" alt="actions.jpg" width="400">
+<img src="images/actions.png" alt="actions.png" width="400">
 
 ## 4. Проверим образ на Docker Hub.
 
-<img src="images/dockerhub.jpg" alt="dockerhub.jpg" width="400">
+<img src="images/dockerhub.png" alt="dockerhub.png" width="400">
+
+Лабораторная работа успешно выполнена!
 
 
