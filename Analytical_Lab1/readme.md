@@ -61,7 +61,7 @@ AmazonRekognition - Yandex Vision
 AmazonEC2 -	Yandex Instance Groups
 
 |Service Usage Type	| Product Code	| Usage Type	| lineItem/Operation |	lineItem/LineItemDescription |	Russian Service |
-|----------------------------------------------------------------------------------------------------------------------------|
+|------------------|---------------|-------------|---------------------|-------------------------------|------------------|
 ||	APNFee		|||	Tax%	||
 ||	APNFee		|||||	
 ||	AmazonAppStream |||	Tax%	
