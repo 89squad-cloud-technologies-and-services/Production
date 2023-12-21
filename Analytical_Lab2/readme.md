@@ -53,53 +53,53 @@ Storage - None
 
 |Service Usage Type	| Meter Category	| Meter Sub-Category	| Meter Name |	Consumed Service |	Russian Service |
 |------------------|---------------|-------------|---------------------|-------------------------------|------------------|
-|Standart Service Level|  Analysis Services	| Tabular	| Standard S%	| Microsoft.AnalysisServices||
-|Basic Service Level|	Analysis Services |	Tabular |	Basic B% |	Microsoft.AnalysisServices ||
-|Developer Service Level|	Analysis Services	| Tabular	| Developer (Hours) |	Microsoft.AnalysisServices ||
-|Solutions with Small Models|	Azure Analysis Services	| Basic |	B%	| Microsoft.AnalysisServices ||
-|Development and Testing|	Azure Analysis Services	| Developer	| Developer |	Microsoft.AnalysisServices ||
-|Mission-Critical Applications|	Azure Analysis Services	| Standard	| S%	| Microsoft.AnalysisServices ||
-|MySQL Using|	Azure Database for PostgreSQL	|||	Microsoft.DBforMyQL ||
-|PostreSQL Using|	Azure Database for PostgreSQL	||| Microsoft.DBforPostgreSQL ||
-|Workflow Analitics|	Azure Databricks || %Data Analytics% | Microsoft.Databricks ||
-|Processing Level Optimization|	Azure Databricks || %Data Engineering% | Microsoft.Databricks ||
-|Webhook Notify|	Azure Monitor	| Notifications	| Webhook	| microsoft.insights ||
-|Email Notify|	Azure Monitor	| Notifications	| Email	| microsoft.insights ||
+|Standart Service Level|  Analysis Services	| Tabular	| Standard S%	| Microsoft.AnalysisServices|None|
+|Basic Service Level|	Analysis Services |	Tabular |	Basic B% |	Microsoft.AnalysisServices |None|
+|Developer Service Level|	Analysis Services	| Tabular	| Developer (Hours) |	Microsoft.AnalysisServices |None|
+|Solutions with Small Models|	Azure Analysis Services	| Basic |	B%	| Microsoft.AnalysisServices |None|
+|Development and Testing|	Azure Analysis Services	| Developer	| Developer |	Microsoft.AnalysisServices |None|
+|Mission-Critical Applications|	Azure Analysis Services	| Standard	| S%	| Microsoft.AnalysisServices |None|
+|MySQL Using|	Azure Database for PostgreSQL	|||	Microsoft.DBforMyQL |Yandex Managed Service for PostgreSQL|
+|PostreSQL Using|	Azure Database for PostgreSQL	||| Microsoft.DBforPostgreSQL |Yandex Managed Service for PostgreSQL|
+|Workflow Analitics|	Azure Databricks || %Data Analytics% | Microsoft.Databricks |Yandex DataSphere|
+|Processing Level Optimization|	Azure Databricks || %Data Engineering% | Microsoft.Databricks |Yandex DataSphere|
+|Webhook Notify|	Azure Monitor	| Notifications	| Webhook	| microsoft.insights |Yandex Monitoring|
+|Email Notify|	Azure Monitor	| Notifications	| Email	| microsoft.insights |Yandex Monitoring|
 |High Peromance Computer|	Virtual Machines ||| Microsoft.Batch
-|Development and Testing|	Virtual Machines | A Series Basic% || %Compute ||
-|Development and Testing|	Virtual Machines | A% || %Compute || 
-|Economical VM|	Virtual Machines | B%	|| %Compute || 
-|General Purpose Compute|	Virtual Machines | D%	| D1/% | %Compute || 
-|General Purpose Compute|	Virtual Machines | D%	| D1 % | %Compute || 
-|General Purpose Compute|	Virtual Machines | D%	| D1% | %Compute || 
-|General Purpose Compute|	Virtual Machines | D%	| D% | %Compute || 
-|Hyper-Threaded Applications|	Virtual Machines | E% || %Compute ||
-|Compute optimized VM|	Virtual Machines | F%	|| %Compute ||
-|Compute optimized VM|	Virtual Machines | Standard_F4 VM (Windows)	| Compute Hours	%Compute ||
-|Momory and Storage optimized VM|	Virtual Machines | G%	|| %Compute ||
-|High Performance Computing VM|	Virtual Machines | H%	|| %Compute ||
-|Storage optimized VM|	Virtual Machines | L%	|| %Compute ||
-|Memory Optimized VM|	Virtual Machines | M%	|| %Compute ||
-|GPU Enabled VM|	Virtual Machines | N%	|| %Compute ||
-|Series Selection|	Virtual Machines | S%	|| %Compute ||
-|Cloud Data|	Virtual Machines ||| Microsoft.MachineLearningServices ||
-|Resource Interaction|	Virtual Network	|||||
-|Distributing Compute|	Load Balancer	||| Microsoft.Batch ||
-|Distributing Compute|	Load Balancer	||| Microsoft.MachineLearningServices ||
-|Distributing Wen Compute|	Load Balancer	||| Microsoft.Network ||
-|Adding Web Functionality to App|	SignalR	||| Microsoft.SignalRService ||
-|Operations for Events|	Event Grid || Operations |||
-|Data Transfer Out|	Windows Azure - All Services | All | Data Transfer Out% | Microsoft.Storage ||
-|Broadcast Quality for Devices|	Media Services ||| microsoft.media ||
-|Communication between Devices|	IoT Hub ||| Microsoft.Devices ||
-|Big Data Analitics|	SQL Data Warehouse | %Storage || Microsoft.Sql ||
-|SQL Analitics|	Storage ||| Microsoft.Sql  ||
-|Data Backup|	Storage	||| microsoft._ackup ||
-|Data Recovery from Storage|	Storage	||| Microsoft.RecoveryServices ||
-|File Operation|	Storage	||| %_torage% ||
-|Storage|	Storage	||| Microsoft.Compute ||
-|Data Storage|	Storage	||| Microsoft.MachineLearningServices ||
-|High-Perfomance Computing|	Storage	||| Microsoft.Batch ||
+|Development and Testing|	Virtual Machines | A Series Basic% || %Compute |Yandex Compute Cloud|
+|Development and Testing|	Virtual Machines | A% || %Compute |Yandex Compute Cloud| 
+|Economical VM|	Virtual Machines | B%	|| %Compute |Yandex Compute Cloud| 
+|General Purpose Compute|	Virtual Machines | D%	| D1/% | %Compute |Yandex Compute Cloud| 
+|General Purpose Compute|	Virtual Machines | D%	| D1 % | %Compute |Yandex Compute Cloud| 
+|General Purpose Compute|	Virtual Machines | D%	| D1% | %Compute |Yandex Compute Cloud| 
+|General Purpose Compute|	Virtual Machines | D%	| D% | %Compute |Yandex Compute Cloud| 
+|Hyper-Threaded Applications|	Virtual Machines | E% || %Compute |Yandex Compute Cloud|
+|Compute optimized VM|	Virtual Machines | F%	|| %Compute |Yandex Compute Cloud|
+|Compute optimized VM|	Virtual Machines | Standard_F4 VM (Windows)	| Compute Hours	%Compute |Yandex Compute Cloud|
+|Momory and Storage optimized VM|	Virtual Machines | G%	|| %Compute |Yandex Compute Cloud|
+|High Performance Computing VM|	Virtual Machines | H%	|| %Compute |Yandex Compute Cloud|
+|Storage optimized VM|	Virtual Machines | L%	|| %Compute |Yandex Compute Cloud|
+|Memory Optimized VM|	Virtual Machines | M%	|| %Compute |Yandex Compute Cloud|
+|GPU Enabled VM|	Virtual Machines | N%	|| %Compute |Yandex Compute Cloud|
+|Series Selection|	Virtual Machines | S%	|| %Compute |Yandex Compute Cloud|
+|Cloud Data|	Virtual Machines ||| Microsoft.MachineLearningServices |Yandex Compute Cloud|
+|Resource Interaction|	Virtual Network	||||None|
+|Distributing Compute|	Load Balancer	||| Microsoft.Batch |Yandex Network Load Balancer|
+|Distributing Compute|	Load Balancer	||| Microsoft.MachineLearningServices |Yandex Network Load Balancer|
+|Distributing Wen Compute|	Load Balancer	||| Microsoft.Network |Yandex Network Load Balancer|
+|Adding Web Functionality to App|	SignalR	||| Microsoft.SignalRService |None|
+|Operations for Events|	Event Grid || Operations ||None|
+|Data Transfer Out|	Windows Azure - All Services | All | Data Transfer Out% | Microsoft.Storage |None|
+|Broadcast Quality for Devices|	Media Services ||| microsoft.media |None|
+|Communication between Devices|	IoT Hub ||| Microsoft.Devices |Yandex IoT Core|
+|Big Data Analitics|	SQL Data Warehouse | %Storage || Microsoft.Sql |None|
+|SQL Analitics|	Storage ||| Microsoft.Sql  |None|
+|Data Backup|	Storage	||| microsoft._ackup |None|
+|Data Recovery from Storage|	Storage	||| Microsoft.RecoveryServices |None|
+|File Operation|	Storage	||| %_torage% |None|
+|Storage|	Storage	||| Microsoft.Compute |None|
+|Data Storage|	Storage	||| Microsoft.MachineLearningServices |None|
+|High-Perfomance Computing|	Storage	||| Microsoft.Batch |None|
 
 # Вывод
 
