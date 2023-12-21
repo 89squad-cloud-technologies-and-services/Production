@@ -86,7 +86,7 @@ AmazonEC2 -	Yandex Instance Groups
 |Device Status Information|	AWSIoT |	%RegistryAndShadowOperations |||Yandex IoT Core|
 |Connection Time|	AWSIoT |	%ConnectionMinutes |||Yandex IoT Core|
 |Connection Protocol|	AWSIoT |	%MQTT	|||Yandex IoT Core|
-|Data Index|	IoTDeviceManagement	%IndexedData	|||Yandex IoT Core|
+|Data Index|	IoTDeviceManagement	| %IndexedData	|||Yandex IoT Core|
 |Tax|	AWSCodePipeline		|||	Tax%	|None|
 |Trial Planning|	AWSCodePipeline	| %trialPipeline% |||None|
 |Active Planning|	AWSCodePipeline |	%activePipeline% |||None|
