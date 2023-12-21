@@ -29,18 +29,33 @@
 # Сопоставление сервисов AWS и Российской компании Yandex Cloud
 
 APNFee - Yandex Cloud Partner Program
+
 AmazonAppStream - None
+
 AmazonAthena - Yandex Managed Service for MySQL
+
 AmazonCloudDirectory - None
+
 AmazonDocDB - Yandex Managed Service for MongoDB
+
 AmazonEI - None
+
 AWSIoT - Yandex IoT Core
+
 IoTDeviceManagement - Yandex IoT Core
+
 AWSCodePipeline - None
+
 AWSXRay - Yandex.Metrica
+
 AWS CodeBuild - None
+
 AmazonML - Yandex DataSphere
+
 AmazonPolly - Yandex SpeechKit
+
 AmazonPersonalize - None
+
 AmazonRekognition - Yandex Vision
+
 AmazonEC2 -	Yandex Instance Groups
