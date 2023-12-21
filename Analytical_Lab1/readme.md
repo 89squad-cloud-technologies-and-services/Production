@@ -108,3 +108,6 @@ AmazonEC2 -	Yandex Instance Groups
 |Taking Snapshot|	AmazonEC2	| %EBS:SnapshotUsage |||Yandex Instance Groups|
 |Organize Your AWS Bill|	AmazonEC2	| %EBS:SnapshotUsageUnderBilling |||Yandex Instance Groups|
 |Get Throughput|	AmazonEC2	| %EBS:VolumeP-IOPS.piops% |||Yandex Instance Groups|
+
+# Вывод
+В ходе выполнения данной работы мы ознакомились с облачными сервисами от Amazon. Кроме того, мы сопоставили сервисы AWS и Yandex Cloud. Однако, не для всех сервисов получилось найти аналоги в Yandex Cloud. Например: AmazonAppStream, AmazonEI и AmazonPersonalize не имеют аналогов в Yandex Cloud. Это говорит, что мы не можем полностью перейти на сервисы российского аналога, поскольку не для всех сервисов есть замена.
