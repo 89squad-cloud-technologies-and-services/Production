@@ -64,47 +64,47 @@ AmazonEC2 -	Yandex Instance Groups
 
 |Service Usage Type	| Product Code	| Usage Type	| lineItem/Operation |	lineItem/LineItemDescription |	Russian Service |
 |------------------|---------------|-------------|---------------------|-------------------------------|------------------|
-|Tax|	APNFee		|||	Tax%	||
-|Cloud Deployment|	APNFee		|||||	
+|Tax|	APNFee		|||	Tax%	|Yandex Cloud Partner Program|
+|Cloud Deployment|	APNFee		||||Yandex Cloud Partner Program|	
 |Tax|	AmazonAppStream |||	Tax%	
-|Streaming Desktop Application|	AmazonAppStream	| %stream%	||||
-|Stop|	AmazonAppStream	| %StoppedInstance%	||||
-|Windows Cooperation|	AmazonAppStream	| %Win-User	||||
-|Query Scanninig|	AmazonAthena |	%DataScanned%	||||
-|Send Request|	AmazonAthena	| %Requests-Tier1	||||
-|Query Boundaries|	AmazonCloudDirectory |	%Requests-Tier1 |	CreateDirectory	|||
-|DB Request|	AmazonCloudDirectory	%Requests-Tier2	||||
-|Tax|	AmazonDocDB ||| Tax% ||	
-|Instance Use|	AmazonDocDB	| %InstanceUsage:%	||||
-|Database Analisis|	AmazonDocDB	| %StorageIOUsage	||||
-|Storage Usage|	AmazonDocDB	| %StorageUsage	||||
-|DB Back up|	AmazonDocDB |	%BackupUsage	||||
-|Tax|	AmazonEI ||| Tax%	||
-|Inference Accelerator|	AmazonEI |	%eia1% ||||
-|Inference Accelerator|	AmazonEI |	%eia2% ||||
-|Send SMS|	AWSIoT |	%Messages	||||
-|Device Status Information|	AWSIoT |	%RegistryAndShadowOperations ||||
-|Connection Time|	AWSIoT |	%ConnectionMinutes ||||
-|Connection Protocol|	AWSIoT |	%MQTT	||||
-|Data Index|	IoTDeviceManagement	%IndexedData	||||
-|Tax|	AWSCodePipeline		|||	Tax%	||
-|Trial Planning|	AWSCodePipeline	| %trialPipeline% ||||
-|Active Planning|	AWSCodePipeline |	%activePipeline% ||||
-|Tax|	AWSXRay	|||	Tax% ||	
-|Data collection|	AWSXRay	| %XRay% ||||
-|Code compitalion|	CodeBuild	|||||
-|Get stats|	AmazonML | %AMLBoxUsage	| DataStats |||		
-|Get predictions|	AmazonML | %BatchPredictionChunk ||||
-|Build algorithm|	AmazonML | %AMLBoxUsage | TrainModel |||		
-|Get Evalute|	AmazonML | %AMLBoxUsage	| EvaluateModel |||		
-|Text to Speech|	AmazonPolly	|||||
-|Tax|	AmazonPersonalize	||| Tax% ||	
-|Set Throughput|	AmazonPersonalize	| %TPS-hours ||||
-|Model Training Time|	AmazonPersonalize	| %TrainingHour	||||
-|Get Data|	AmazonPersonalize	| %DataIngestion ||||
-|Data Indexing|	AmazonRekognition	|||||
-|Get Response Time|	AmazonEC2	| %EBS:VolumeIOUsage%	||||
-|Data Scaling|	AmazonEC2	| %EBS:VolumeUsage%	||||
-|Taking Snapshot|	AmazonEC2	| %EBS:SnapshotUsage ||||
-|Organize Your AWS Bill|	AmazonEC2	| %EBS:SnapshotUsageUnderBilling ||||
-|Get Throughput|	AmazonEC2	| %EBS:VolumeP-IOPS.piops% ||||
+|Streaming Desktop Application|	AmazonAppStream	| %stream%	|||None|
+|Stop|	AmazonAppStream	| %StoppedInstance%	|||None|
+|Windows Cooperation|	AmazonAppStream	| %Win-User	|||None|
+|Query Scanninig|	AmazonAthena |	%DataScanned%	|||Yandex Managed Service for MySQL|
+|Send Request|	AmazonAthena	| %Requests-Tier1	|||Yandex Managed Service for MySQL|
+|Query Boundaries|	AmazonCloudDirectory |	%Requests-Tier1 |	CreateDirectory	||None|
+|DB Request|	AmazonCloudDirectory	%Requests-Tier2	|||None|
+|Tax|	AmazonDocDB ||| Tax% |Yandex Managed Service for MongoDB|	
+|Instance Use|	AmazonDocDB	| %InstanceUsage:%	|||Yandex Managed Service for MongoDB|
+|Database Analisis|	AmazonDocDB	| %StorageIOUsage	|||Yandex Managed Service for MongoDB|
+|Storage Usage|	AmazonDocDB	| %StorageUsage	|||Yandex Managed Service for MongoDB|
+|DB Back up|	AmazonDocDB |	%BackupUsage	|||Yandex Managed Service for MongoDB|
+|Tax|	AmazonEI ||| Tax%	|None|
+|Inference Accelerator|	AmazonEI |	%eia1% |||None|
+|Inference Accelerator|	AmazonEI |	%eia2% |||None|
+|Send SMS|	AWSIoT |	%Messages	|||Yandex IoT Core|
+|Device Status Information|	AWSIoT |	%RegistryAndShadowOperations |||Yandex IoT Core|
+|Connection Time|	AWSIoT |	%ConnectionMinutes |||Yandex IoT Core|
+|Connection Protocol|	AWSIoT |	%MQTT	|||Yandex IoT Core|
+|Data Index|	IoTDeviceManagement	%IndexedData	|||Yandex IoT Core|
+|Tax|	AWSCodePipeline		|||	Tax%	|None|
+|Trial Planning|	AWSCodePipeline	| %trialPipeline% |||None|
+|Active Planning|	AWSCodePipeline |	%activePipeline% |||None|
+|Tax|	AWSXRay	|||	Tax% |Yandex.Metrica|	
+|Data collection|	AWSXRay	| %XRay% |||Yandex.Metrica|
+|Code compitalion|	CodeBuild	||||None|
+|Get stats|	AmazonML | %AMLBoxUsage	| DataStats ||Yandex DataSphere|		
+|Get predictions|	AmazonML | %BatchPredictionChunk |||Yandex DataSphere|
+|Build algorithm|	AmazonML | %AMLBoxUsage | TrainModel ||Yandex DataSphere|		
+|Get Evalute|	AmazonML | %AMLBoxUsage	| EvaluateModel ||Yandex DataSphere|		
+|Text to Speech|	AmazonPolly	||||Yandex SpeechKit|
+|Tax|	AmazonPersonalize	||| Tax% |None|	
+|Set Throughput|	AmazonPersonalize	| %TPS-hours |||None|
+|Model Training Time|	AmazonPersonalize	| %TrainingHour	|||None|
+|Get Data|	AmazonPersonalize	| %DataIngestion |||None|
+|Data Indexing|	AmazonRekognition	||||Yandex Vision|
+|Get Response Time|	AmazonEC2	| %EBS:VolumeIOUsage%	|||Yandex Instance Groups|
+|Data Scaling|	AmazonEC2	| %EBS:VolumeUsage%	|||Yandex Instance Groups|
+|Taking Snapshot|	AmazonEC2	| %EBS:SnapshotUsage |||Yandex Instance Groups|
+|Organize Your AWS Bill|	AmazonEC2	| %EBS:SnapshotUsageUnderBilling |||Yandex Instance Groups|
+|Get Throughput|	AmazonEC2	| %EBS:VolumeP-IOPS.piops% |||Yandex Instance Groups|
