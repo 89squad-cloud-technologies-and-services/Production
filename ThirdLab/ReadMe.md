@@ -18,6 +18,8 @@
 
 <img src="images/dockerhub.png" alt="dockerhub.png" width="400">
 
+Ссылка: https://hub.docker.com/repository/docker/amirur/lab3
+
 Лабораторная работа успешно выполнена!
 
 
